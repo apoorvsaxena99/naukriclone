@@ -12,6 +12,6 @@ app.use(require('./controllers/recuriter'))
 app.use(require('./controllers/candidate'))
 app.use(require('./controllers/search'))
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT,()=>console.log(`Server is running at ${PORT}`));
